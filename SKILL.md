@@ -1,8 +1,23 @@
 ---
-name: longfei-tuxing-tuili
+name: longfei-baidai-tuitui
+display_name: 龙飞百大图推
+display_name_en: Longfei Hundred Graphics (Pattern Reasoning)
 description: 龙飞百大图推（龙飞「百大图形」行测图形推理解题体系）。用于图形推理题的题型识别、规律定位、选项排他、答案核对与错题复盘；含 100 个百大图形样式、254 个编号案例 + 拓展演练、命题人选项技术与七步解题流程。触发词：龙飞百大图推、图形推理、图推、百大图形、飞哥传书、共性识图、对称轴、一笔画、黑白叠加、展开图、三视图、判断推理图推。
+description_zh: 龙飞百大图形推理解题体系，含题型识别、规律定位、选项排他与七步解题流程，配 100 个图形样式与 254 个编号案例。
+description_en: A pattern-reasoning solver built on the Hundred Graphics system: question-type identification, rule localisation, option elimination and a seven-step workflow, bundled with 100 canonical graphic patterns and 254 worked cases.
+version: 1.0.0
+author: 闫石名
+examples_zh:
+  - "这道图形推理题属于哪一类？帮我定位规律"
+  - "用龙飞百大图推的七步法走一遍这道题"
+  - "四个选项怎么排除？教我命题人的出题思路"
+examples_en:
+  - "Which pattern category does this figure reasoning question belong to"
+  - "Walk me through this question using the seven-step method"
+  - "How do I eliminate these four options? Teach me the examiner's logic"
+allowed-tools: Read, Grep, Glob, Bash
+agent_created: true
 ---
-
 # 龙飞百大图推（龙飞图形推理 · 百大图形体系）
 
 ## 这个 skill 是什么
